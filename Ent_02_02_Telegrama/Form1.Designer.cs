@@ -34,6 +34,7 @@
             this.lblTexto = new System.Windows.Forms.Label();
             this.lblCoste = new System.Windows.Forms.Label();
             this.txtPrecio = new System.Windows.Forms.TextBox();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // button1
@@ -95,11 +96,23 @@
             this.txtPrecio.Size = new System.Drawing.Size(157, 35);
             this.txtPrecio.TabIndex = 5;
             // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(324, 304);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(126, 24);
+            this.radioButton1.TabIndex = 6;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "radioButton1";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
             // Ent_02_02_Telegrama
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.txtPrecio);
             this.Controls.Add(this.lblCoste);
             this.Controls.Add(this.lblTexto);
@@ -121,6 +134,7 @@
         private System.Windows.Forms.Label lblTexto;
         private System.Windows.Forms.Label lblCoste;
         private System.Windows.Forms.TextBox txtPrecio;
+        private System.Windows.Forms.RadioButton radioButton1;
     }
 }
 
