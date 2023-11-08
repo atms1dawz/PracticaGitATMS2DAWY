@@ -14,6 +14,7 @@ namespace Ent_02_02_Telegrama
     {
         public Ent_02_02_Telegrama()
         {
+            // ColaboracionATMS2DAWY
             InitializeComponent();
         }
 
